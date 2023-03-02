@@ -8,7 +8,7 @@
     <?= wp_head() ?>
 </head>
 <body <?= body_class() ?>>
-
+<section id="main">
 <h1><?php echo bloginfo("name") ?></h1>
 <p><?= bloginfo("description") ?></p>
     
